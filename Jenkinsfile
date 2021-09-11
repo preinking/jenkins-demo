@@ -4,6 +4,9 @@ pipeline {
       yamlFile "jenkins-pod.yaml"
     }
   }
+  options {
+      ansiColor('xterm')
+  }
   environment {
     PROJECT = "jenkins-demo"
     REGISTRY_USER = "quanby"
