@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: jenkins-demo
-        image: vfarcic/jenkins-demo
+        image: quanby/jenkins-demo
         ports:
         - containerPort: 80
         livenessProbe:
@@ -33,4 +33,3 @@ spec:
           requests:
             cpu: 80m
             memory: 128Mi
-
