@@ -6,7 +6,7 @@ pipeline {
   }
   environment {
     PROJECT = "jenkins-demo"
-    REGISTRY_USER = "preinking"
+    REGISTRY_USER = "quanby"
   }
   stages {
     stage("Build") {
